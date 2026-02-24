@@ -81,6 +81,15 @@ This public repo intentionally stays high-level. Implementation details that cou
 
 ---
 
+## Key Docs
+- [Architecture](docs/01-architecture.md)
+- [Guardrails & Permissions](docs/02-guardrails-and-permissions.md)
+- [Roadmap](docs/03-roadmap.md)
+- [Feature Matrix](docs/04-feature-matrix.md)
+- [Decisions (ADRs)](docs/06-decisions/)
+
+---
+
 ## Status
 Active build. Early prototype phase (**v0.x**) with a focus on shipping **small, safe, real wins** before adding complexity.
 
