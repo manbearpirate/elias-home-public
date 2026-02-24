@@ -95,6 +95,11 @@ Active build. Early prototype phase (**v0.x**) with a focus on shipping **small,
 
 ---
 
+## How to Contribute
+Open an Issue titled: **“I want Elias to…”** (one sentence is perfect).
+
+---
+
 ## For the Humans
 Elias exists for one reason: **make home life easier** — fewer missed tasks, fewer “oh no we forgot,” and less stress when we’re already carrying a lot.
 
