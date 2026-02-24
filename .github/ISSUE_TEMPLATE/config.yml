@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Start here (Project overview)"
+    url: "https://github.com/manbearpirate/elias-home-public"
+    about: "Read the project summary and roadmap before filing."
