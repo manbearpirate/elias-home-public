@@ -8,6 +8,26 @@ Think: **kitchen-friendly dashboard + reminders + animal-care tracking**, with l
 
 ---
 
+## What Elias Is
+
+Elias is a **local-first household steward system** designed to reduce mental load and help keep a home running smoothly.
+
+It began with simple goals:
+
+- track rabbit care
+- manage household chores
+- provide a calm kitchen dashboard
+- surface reminders without becoming noisy
+
+Over time it is evolving into a broader system for:
+
+- household routines
+- operational visibility
+- homestead stewardship
+- long-term household memory
+
+---
+
 ## Start Here (non-technical)
 - **What it is:** a calm home dashboard + reminders system (local-first).
 - **Why:** fewer missed chores/appointments + smoother routines.
@@ -58,6 +78,28 @@ Think: **kitchen-friendly dashboard + reminders + animal-care tracking**, with l
 - **Quiet hours** respected
 - **Snooze > dismiss**
 - Keep it family-friendly: simple UI, big text, low friction
+
+---
+
+## Architecture Snapshot
+
+Elias is built around a few simple layers:
+
+Users  
+↓  
+Elias Face (dashboard / tablet UI)  
+↓  
+Elias Core (household logic + reminders)  
+↓  
+Data Store (SQLite)  
+↓  
+Events & History
+
+Later architecture expands to include:
+
+- **Elias Brain** — infrastructure and monitoring
+- **Tobias Sentinel** — observability layer
+- **Codex** — long-term household knowledge
 
 ---
 
