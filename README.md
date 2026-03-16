@@ -1,3 +1,9 @@
+![Project Status](https://img.shields.io/badge/status-active%20development-blue)
+![Architecture](https://img.shields.io/badge/architecture-documented-success)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+---
+
 # Elias Home (Public)
 
 Elias is our family’s **home hub** project — a gentle, local-first assistant designed to reduce mental load and help everyday life run smoothly.
@@ -113,6 +119,42 @@ This public repo intentionally stays high-level. Implementation details that cou
 
 ---
 
+## Project Status
+
+Elias is currently in **early active development**.
+
+| Area | Status | Notes |
+|-----|------|------|
+| Architecture | Stable | Core system structure defined |
+| Documentation | Strong | Architecture, roadmap, guardrails, ADRs |
+| Elias Core | Scaffolded | Initial FastAPI service skeleton |
+| Elias Face | Scaffolded | Dashboard UI placeholder |
+| Infrastructure | Planned | Elias Brain Bronze Build defined |
+| Data Model | Stable | SQLite schema and event model |
+| Rabbit Tracking | Planned | First working feature target |
+| Chore Tracking | Planned | Second working feature target |
+
+Next milestone:
+
+**Connect Elias Core → SQLite → Dashboard**
+
+---
+
+## Current Development Focus
+
+The immediate goal is to produce a **minimal working household dashboard**.
+
+Short-term milestones:
+
+1. Connect Elias Core to the SQLite schema
+2. Implement rabbit care API endpoints
+3. Implement chore tracking endpoints
+4. Connect Elias Face dashboard to live Core data
+
+Once that works reliably, the project will move into reminder logic and routine support.
+
+---
+
 ## Repo Map
 - `docs/`
   - `01-architecture.md` — high-level architecture overview
@@ -137,8 +179,40 @@ Active build. Early prototype phase (**v0.x**) with a focus on shipping **small,
 
 ---
 
+## Why This Project Exists
+
+Most smart-home systems optimize for gadgets.
+
+Elias optimizes for **household calm**.
+
+The idea is simple:
+
+- fewer forgotten chores
+- clearer rabbit care tracking
+- a kitchen dashboard that answers “what’s going on today?”
+- reminders that are helpful but not annoying
+- a system that supports family life rather than interrupting it
+
+Over time Elias may also support homestead stewardship through the Red Barn Initiative.
+
+---
+
 ## How to Contribute
 Open an Issue titled: **“I want Elias to…”** (one sentence is perfect).
+
+---
+
+## Inspiration
+
+Elias draws inspiration from ideas like:
+
+- calm technology
+- local-first software
+- homestead record keeping
+- operational observability
+- household dashboards
+
+The long-term vision is a system that quietly supports daily life without becoming intrusive or complicated.
 
 ---
 
