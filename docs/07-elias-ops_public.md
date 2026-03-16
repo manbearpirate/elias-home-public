@@ -28,3 +28,25 @@
 ### List containers
 ```bash
 docker ps -a
+```
+
+---
+
+## Current Status
+
+Elias is currently in early development.
+
+The project has:
+
+- architectural documentation
+- a defined roadmap
+- a working repository structure
+- early application scaffolding
+
+The focus is currently on:
+
+- stabilizing the data model
+- building the first Core service endpoints
+- connecting the dashboard interface
+
+---
